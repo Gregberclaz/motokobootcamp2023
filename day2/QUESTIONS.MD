@@ -1,9 +1,10 @@
 # Questions 🙋
 
 1. Who controls the ledger canister?  
-**A single developper/user or an other canister/smart contract/DAO have the ability to control a ledger canister**  
+**If the question is about the NNS ledger canister, it's the DAO**  
+**Else single developper/user or an other canister/smart contract/DAO have the ability to control a ledger canister**  
 
-2. What is the subnet of the canister with the id: **mwrha-maaaa-aaaab-qabqq-cai**? 
+2. What is the subnet of the canister with the id: **mwrha-maaaa-aaaab-qabqq-cai**?  
 **subnet ID : pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe**  
 How much nodes are running this subnet? **16**  
 Sources : https://dashboard.internetcomputer.org/subnet/pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe?nd-s=100  
@@ -11,7 +12,7 @@ Sources : https://dashboard.internetcomputer.org/subnet/pae4o-o6dxf-xki7q-ezclx-
 
 3. I have a neuron with 1O ICPs locked with a dissolve delay of 4 years - my neuron has been locked for 2 years. What is my expected voting power?  
 DISSOLVE DELAY BONUS : (2-1.06) / ((8 years * 12 months) - 6 initial month) * (24 month locked) = 1.248  
-AGE BONUS : (0.25 / 48 month * 24 month) + 1 = 1.125
+AGE BONUS : (0.25 / 48 month * 24 month) + 1 = 1.125  
 AMOUNT MB TOKENS * DISSOLVE DELAY BONUS * AGE BONUS = 10 * 1.248 * 1.125 = **14.04 Voting power**  
 
 
