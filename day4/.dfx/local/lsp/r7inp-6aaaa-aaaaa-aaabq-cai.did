@@ -1,0 +1,10 @@
+type List = 
+ opt record {
+       nat;
+       List;
+     };
+service : {
+  is_anonymous: () -> (bool);
+  testBuffer: () -> (opt nat) query;
+  testList: () -> (List) query;
+}

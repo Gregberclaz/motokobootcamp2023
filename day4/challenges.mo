@@ -8,7 +8,8 @@ actor {
     /*******************************************
      1. Write a function unique that takes a list l of type List and returns a new list with all duplicate elements removed.
     *******************************************/
-
+    
+    //Will finish it later, need to start the core project.
     
     /*******************************************
      2. Write a function reverse that takes l of type List and returns the reversed list.
@@ -52,6 +53,6 @@ actor {
     /*******************************************
      5. Add a function called get_usernames that will return an array of tuples (Principal, Text) which contains all the entries in usernames.
     *******************************************/
-    return Iter.toArray(usernames)
+    return Iter.toArray(usernames.entries());
 
 }
